@@ -182,7 +182,7 @@ void mqtt_recv_thread(void *pvParameters)
  ![image](https://user-images.githubusercontent.com/52451470/117526867-83a14080-affa-11eb-99a8-0c835ad1cbe9.png)
 
 可以看到LED灯已经点亮。
-五、	实验总结
+# 五、	实验总结
 F4系列的板子可以通过cubemx快速配置FreeRTOS系统和LWIP协议，由于使用F103的开发板，在环境配置上花了不少时间。主要是参考正点原子的例程。在这个过程中对FreeRTOS和LWIP都有了更深入的了解。
 在移植完成MQTT后，按照paho库里的例程修改，接入阿里云的过程，对MQTT协议也有了一定的理解。
 总的来说，本次实验让自己收获了很多。
